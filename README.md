@@ -146,7 +146,11 @@ Both went from raw discovery through all five sub-agents to a Gmail draft, with 
 
 ## Demo
 
-*(video walkthrough - drag the recorded MP4 directly into this file in the GitHub web editor; it auto-hosts and inserts a working embed link, no external hosting needed)*
+*(video walkthrough - 
+
+https://github.com/user-attachments/assets/29abe871-be5a-4145-a51f-55bbb908b4e3
+
+)*
 
 ---
 
