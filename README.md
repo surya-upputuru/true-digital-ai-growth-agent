@@ -101,27 +101,25 @@ NEXT ACTION
 20-minute free automation audit call
 ```
 
-## Proof of work - a real run (28 Aug 2026)
+## Proof of work - a real run (27 Aug 2026)
 
-Pulled directly from production executions, not a staged demo. The Schedule Trigger fired at 9:00 AM IST; Orchestrator 1 found 2 new leads, and each one ran the full Orchestrator 2 chain automatically:
+Pulled directly from production executions, not a staged demo (this is the same run shown in the video walkthrough). The Schedule Trigger fired at 9:00 AM IST; Orchestrator 1 found 2 new leads, and each one ran the full Orchestrator 2 chain automatically:
 
 | Lead | SEO score | Primary pain point | ROI estimate | Draft ready in |
 | --- | --- | --- | --- | --- |
-| Skinshine Skin & Hair Clinic | 50 | No Google Business Profile claimed | 7 hrs/mo saved, 1–5 additional bookings/mo | 42s |
-| Visakha Skin Clinic | 55 | No Google Business Profile claimed | 4 hrs/mo saved, 10–20 additional bookings/mo | 22s |
+| Apollo Dental | 80 | No Google Business Profile claimed | 8 hrs/mo saved, 5-15 additional booked calls/mo | 29s (Groq succeeded on 3rd attempt after 2 rate-limit errors) |
+| Partha Dental | 55 | No Google Business Profile claimed | 4 hrs/mo saved, 1-3 additional appointments/mo | 129s (Groq failed entirely; completed via automatic OpenRouter failover) |
 
-Both went from raw discovery through all five sub-agents to a Gmail draft, with zero manual intervention and zero failed executions. Sample drafted output (Skinshine):
+Both went from raw discovery through all five sub-agents to a Gmail draft, with zero manual intervention and zero lost records - including the case where Groq failed outright and the system had to fail over mid-chain. Sample drafted output (Apollo Dental):
 
-> **Subject:** Claim Skinshine's Google Business Profile
+> **Subject:** Boost Apollo Dental's Local Search with GBP
 >
-> Hi there, Skinshine Skin & Hair Clinic, I've looked at your site.
+> Hi there, Apollo Dental - we've noticed your practice could benefit from a stronger local presence, especially in a competitive market.
 >
-> Your clinic's site loads in 3.5 seconds and currently has no Google Business Profile.
+> Apollo Dental is missing out on local search traffic because they have not claimed their Google Business Profile, and their site loads in 3.5 seconds, which can deter patients who expect fast online experiences.
 >
-> Missing a Google Business Profile means lost local search visibility and potential clients.
->
-> - Claim and optimize a Google Business Profile to boost local search rankings and attract new patients.
-> - Save 7 hours weekly and expect 1–5 additional booked appointments per month.
+> - Claim and optimize the Google Business Profile to boost local search visibility and attract new patients.
+> - 8 hours saved and 5 to 15 additional booked calls per month.
 >
 > Worth a quick 20-minute free automation audit call this week?
 >
