@@ -148,9 +148,16 @@ Both went from raw discovery through all five sub-agents to a Gmail draft, with 
 
 *(video walkthrough - 
 
-https://github.com/user-attachments/assets/29abe871-be5a-4145-a51f-55bbb908b4e3
+
+
 
 )*
+
+https://github.com/user-attachments/assets/c0fd4052-2759-4ea0-abbf-f0f9c6542c35
+
+
+
+
 
 ---
 
